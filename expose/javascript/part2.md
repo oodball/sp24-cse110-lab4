@@ -9,3 +9,10 @@
 9. Line 11 will throw a `ReferenceError`. This is because `i` is only defined inside the for loop block, so we can't get access to it outside that block which is where we're calling it. 
 10. This returns `3`. Since the length doesn't change and is constant, we are able to call it to return 3. 
 11. This doesn't output anything on the command line, but it should be storing all discounted prices in an array and returning it. 
+12. Notations:
+    1.  `student.name`
+    2.  `student['Grad Year']`
+    3.  `student.greeting()`
+    4.  `student['Favorite Teacher'].name`
+    5.  `student.courseLoad[0]`
+13. 
