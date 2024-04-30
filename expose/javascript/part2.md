@@ -35,4 +35,6 @@
     6.  `false` They both evaluate to 1, but they are not strictly the same type. 
 15. `==` only checks if they're the same and can convert to other data types. `===` is a strict checker that also checks for data type similarity. 
 16. see file `part2-question16.js`
-17. 
+17. The result isn't shown in command line, but it should return a value with the array `[2, 4, 6]` in it. This is because we use the for loop to iterate through every element in the array, and then push a modified element from `doSomething`, which doubles the number. Then, that modified number gets pushed to the new array, and we get the end result. 
+18. See `part2-question18.js`
+19. We get the output `1 4 3 2` printed individually on different lines. I think this is due to the delay. We have 1 and 4 which are immediate, then 2 which has a 1 second delay, and then 3 with 0 ms, but it executes after 4. 
