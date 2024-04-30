@@ -10,9 +10,29 @@
 10. This returns `3`. Since the length doesn't change and is constant, we are able to call it to return 3. 
 11. This doesn't output anything on the command line, but it should be storing all discounted prices in an array and returning it. 
 12. Notations:
-    1.  `student.name`
-    2.  `student['Grad Year']`
-    3.  `student.greeting()`
-    4.  `student['Favorite Teacher'].name`
-    5.  `student.courseLoad[0]`
-13. 
+    <ol type="A">
+    <li>student.name</li>
+    <li>student['Grad Year']</li>
+    <li>student.greeting()</li>
+    <li>student['Favorite Teacher'].name </li>
+    <li> student.courseLoad[0]</li>
+    </ol>
+13. Arithmetic: 
+    1.  `32`. This is because integers map to their exact string representation, and we have `"3"` as a string, which means that `2` convrts to a string too. 
+    2.  `1`. This is because the `-` operator is present. Therefore, `3` gets switched into an integer, and integer subtraction is performed. 
+    3.  `3`. `null` is represented as `0`, so we're just adding 3 + 0. 
+    4.  `3null`. SImilar logic to 1. 3 is a string, so it will convert the second part to a string as well, concatenating them. 
+    5.  `4`. This is because `true` is represented by a 1, so we're adding 3 + 1. 
+    6.  `0`. Both `false` and `null` are represented by 0, so 0 + 0 = 0. 
+    7.  `3undefined`. Again similar logic to 1 and 4, performing string concatenation. 
+    8.  `NaN`. We can't do this because `undefined` doesn't have a numeric representation. 
+14. Comparison:
+    1.  `true`. We can convert `2` to be an integer and then perform integer comparisons. 
+    2.  `true`. We can compare these numbers as well, since we can compare it by character. `2` is only one character, but `12` is two, and since we see that `2` is less than `1`, and there's another element behind it, then this returns `true`.
+    3.  `true`. We convert one of the `2` to the same type as the other one,and then this becomes `true`. 
+    4.  `false`. The types are not strictly the same. 
+    5.  `false`. `true` evaluates to 1, and 1 is not equal to 2. 
+    6.  `false` They both evaluate to 1, but they are not strictly the same type. 
+15. `==` only checks if they're the same and can convert to other data types. `===` is a strict checker that also checks for data type similarity. 
+16. see file `part2-question16.js`
+17. 
