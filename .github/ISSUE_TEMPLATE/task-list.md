@@ -8,6 +8,6 @@ assignees: oodball
 ---
 
 ## Major Task - minor task
-[ ] issue
-[ ] issue
-[ ] issue
+- [ ] issue
+- [ ] issue
+- [ ] issue
