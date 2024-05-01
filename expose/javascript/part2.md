@@ -28,12 +28,12 @@
     8.  `NaN`. We can't do this because `undefined` doesn't have a numeric representation. 
 14. Comparison:
     1.  `true`. We can convert `2` to be an integer and then perform integer comparisons. 
-    2.  `false`. We can compare these numbers as well, since we can compare it by character. `2` is only one character, but `12` is two, and since we see that `2` is less than `1`, and there's another element behind it, then this returns `true`.
+    2.  `false`. We compare character by character here since they're both string types, so then it becomes false because 2 is not less thn 1. 
     3.  `true`. We convert one of the `2` to the same type as the other one,and then this becomes `true`. 
     4.  `false`. The types are not strictly the same. 
     5.  `false`. `true` evaluates to 1, and 1 is not equal to 2. 
     6.  `true` They both evaluate to 1. 
-15. `==` only checks if they're the same and can convert to other data types. `===` is a strict checker that also checks for data type similarity, and it will convert one side to a boolean. 
+15. `==` only checks if they're the same and can convert to other data types. `===` is a strict checker that also checks for data type.
 16. see file `part2-question16.js`
 17. The result isn't shown in command line, but it should return a value with the array `[2, 4, 6]` in it. This is because we use the for loop to iterate through every element in the array, and then push a modified element from `doSomething`, which doubles the number. Then, that modified number gets pushed to the new array, and we get the end result. 
 18. See `part2-question18.js`
